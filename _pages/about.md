@@ -13,6 +13,5 @@ redirect_from:
 * My research interests lie across many topics: uncertainty quantification; simulation optimization and stochastic optimization; non-parametric methods and highdimensional statistics.
 
 ## Contact
-Email: ljh5602 at psu dot edu
-
+Email: ljh5602 at psu dot edu    
 Office: 232 Leonhard Building, University Park, PA 16802
