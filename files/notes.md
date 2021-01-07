@@ -10,5 +10,6 @@ _includes:
 * archive-single-talk.html same as above, but for talks
   
 _layouts:
+* single.html adjusts the format of the atomic pages
 
 _pages: includes the markdown wrappers for each single page.
