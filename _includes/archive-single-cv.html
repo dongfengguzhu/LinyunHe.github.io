@@ -30,16 +30,15 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        {{ post.authors }}, <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>,
+        {{ post.authors }}. ({{ post.date | default: "1900-01-01" | date: "%Y" }}) <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>,
       {% endif %}
       {% if post.venue%}
-        <i>{{ post.venue }}</i>, 
+        <i>{{ post.venue }}</i>, {{ post.volume }} ({{ post.number }}), {{ post.page }}.
       {% elsif post.status == "submitted"%}
         <i>submitted</i>,
       {% elsif post.status == "arxiv-preprint"%}
         <i>arXiv</i>,
     {% endif %}
-    {{ post.date | default: "1900-01-01" | date: "%Y" }}
     </p>
  <!--   {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
