@@ -14,4 +14,5 @@ redirect_from:
 
 ## Contact
 Email: ljh5602 at psu dot edu
+
 Office: 232 Leonhard Building, University Park, PA 16802
