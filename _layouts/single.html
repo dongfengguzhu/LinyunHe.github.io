@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.arxiv == 'arxiv-preprint' %}
-          <p> <i>arXiv preprint</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> <a href="{{ page.paperurl }}"><i>arXiv preprint</i></a>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
