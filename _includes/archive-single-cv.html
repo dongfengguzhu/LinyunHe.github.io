@@ -33,7 +33,7 @@
         {{ post.authors }}. ({{ post.date | default: "1900-01-01" | date: "%Y" }}) <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>,
       {% endif %}
       {% if post.venue%}
-        <i>{{ post.venue }}</i>, {{ post.volume }} ({{ post.number }}), {{ post.page }}.
+        <i>{{ post.venue }}</i> {{ post.volume }} ({{ post.number }}), {{ post.page }}.
       {% elsif post.status == "submitted"%}
         <i>submitted</i>,
       {% elsif post.status == "arxiv-preprint"%}
