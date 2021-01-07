@@ -22,6 +22,7 @@ Education
 * Duties included: Tagging issues
 * Supervisor: Professor Git
 -->
+
 Papers
 ======
   <ul>{% for post in site.publications reversed %}
