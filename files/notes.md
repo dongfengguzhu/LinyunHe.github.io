@@ -8,6 +8,7 @@ _includes:
 * archive-single.html controls the format of items (publications, teachings, etc.) in a <b>single page</b>, (i.e. the page of "Papers", "Teaching", 
   but not the page about one single paper, I'd refer the latter to be an <b>atomic page</b>)
 * archive-single-talk.html same as above, but for talks
+* archive-single-cv.html wrapper in the CV single page
   
 _layouts:
 * single.html adjusts the format of the atomic pages
