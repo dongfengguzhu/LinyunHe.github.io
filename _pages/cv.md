@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mathematics and Applied Mathematics, Fudan University, 2017
+* M.A. in Statistics, Columbia University, 2019
+* Ph.D. in Industrial and Manufacturing Engineering, with Dual-title degree in Operations Research, Penn State University, 2023 (expected)
 
 Work experience
 ======
@@ -29,12 +29,8 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: C++, R, Python
+* Software: LaTeX, MATLAB.
 
 Publications
 ======
@@ -54,6 +50,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[//]: <> Service and leadership
+[//]: <> ======
+[//]: <> * Currently signed in to 43 different slack teams
