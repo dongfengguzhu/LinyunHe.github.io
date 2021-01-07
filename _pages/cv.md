@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
 * B.S. in Mathematics and Applied Mathematics, Fudan University, 2017
 * M.A. in Statistics, Columbia University, 2019
 * Ph.D. in Industrial and Manufacturing Engineering, with Dual-title degree in Operations Research, Penn State University, 2023 (expected)
