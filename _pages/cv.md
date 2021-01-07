@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
 ## Education
 * B.S. in Mathematics and Applied Mathematics, Fudan University, 2017
 * M.A. in Statistics, Columbia University, 2019
@@ -24,7 +23,6 @@ redirect_from:
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Skills
-======
+## Skills
 * Languages: C++, R, Python
 * Software: LaTeX, MATLAB.
