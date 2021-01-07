@@ -35,9 +35,9 @@
       {% if post.venue%}
         <i>{{ post.venue }}</i> {{ post.volume }} ({{ post.number }}), {{ post.page }}.
       {% elsif post.status == "submitted"%}
-        {{ post.paperurl }}.
+        <i>submitted</i>.
       {% elsif post.status == "arxiv-preprint"%}
-        <i>arXiv</i>.
+        {{ post.paperurl }}.
     {% endif %}
     </p>
  <!--   {% if post.read_time %}
