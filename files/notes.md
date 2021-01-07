@@ -11,5 +11,6 @@ _includes:
   
 _layouts:
 * single.html adjusts the format of the atomic pages
+* talk.html does the above for talks
 
 _pages: includes the markdown wrappers for each single page.
