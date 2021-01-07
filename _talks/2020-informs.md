@@ -8,4 +8,4 @@ date: 2020-11-13
 location: "National Harbor, MD"
 ---
 
-[Video Recording](https://cattendee.abstractsonline.com/meeting/9022/presentation/2898)
+Session: FD03 - Stochastic Optimization (ID 348)
