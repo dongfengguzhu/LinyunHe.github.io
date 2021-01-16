@@ -24,5 +24,5 @@ redirect_from:
   {% endfor %}</ul>
   
 ## Skills
-* <font size=2pt>Languages: C++, R, Python</font>
+* <font size=1pt>Languages: C++, R, Python</font>
 * Software: LaTeX, MATLAB.
